@@ -2,7 +2,7 @@
 
 /**
  * main - print _putchar
- * is written by bwave
+ * is written by okibe1
  * Return: 0
  */
 
