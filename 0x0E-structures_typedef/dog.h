@@ -1,6 +1,9 @@
 #ifndef DOG_H
 #define DOG_H
-
+/**
+ * free_dog - Frees dogs.
+ * @d: The dog to be freed.
+ */
 struct dog
 {
 	char *name;
