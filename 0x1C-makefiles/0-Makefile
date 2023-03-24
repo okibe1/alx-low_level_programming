@@ -1,0 +1,4 @@
+# Makefile build executable file Holberton
+
+all: main.c school.c
+	gcc main.c schoo;.c -o school
