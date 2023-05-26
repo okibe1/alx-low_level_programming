@@ -8,13 +8,10 @@
 int main(void)
 {
 	char quote[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	ssize_t len = sizeof(quote) - 1;
-	ssize_t written = 0;
+	int len = sizeof(quote) - 1;
 
-	written = write(2, quote, len);
+	if (write(2, quote, len) != len)
+		return (1);
 
-	if (written != len)
-		return 1;
-
-	return 1;
+	return (1);
 }
